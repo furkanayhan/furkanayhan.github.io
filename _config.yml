@@ -3,24 +3,35 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
-relative_permalinks: true
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:        /blog/:title
+relative_permalinks: false
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Furkan Ayhan
+tagline:          'Software Developer - Computer Engineer'
+description:      'Furkan Ayhan - Software Developer - Ruby on Rails - Computer Engineer'
+url:              http://www.furkanayhan.com
 baseurl:          /
 
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   UA-33612874-1
+google_verify:      -yRZtByIj6h8B6bBEVBTPp_LTSXUcamiGYBX9Y_A374
+
+
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Furkan ayhan'
+  url:            http://www.furkanayhan.com
 
 paginate:         5
+paginate_path:    '/blog/page-:num/'
 
 # Custom vars
-version:          2.1.0
+version:          1.0.0
 
-github:
-  repo:           https://github.com/poole/hyde
+twitter_username:     furkanayhn
+github_username:      furkanayhan
+linkedin_username:    furkanayhan
+google_plus_username: FurkanAyhan
+facebook_username:    furkanayhn
