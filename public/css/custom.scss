@@ -1,3 +1,7 @@
+---
+# This is the Front Matter block
+---
+
 * {
   font-family: 'Ubuntu', sans-serif;
 }
@@ -30,18 +34,18 @@
   vertical-align: middle;
 }
 
-.home ul.horizontal-menu{
+ul.horizontal-menu{
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
 }
 
-.home ul.horizontal-menu li{
+ul.horizontal-menu li{
   display: inline;
 }
 
-.home ul.horizontal-menu li a{
+ul.horizontal-menu li a{
   text-decoration: none;
   padding: .2em 1em;
   color: #fff;
@@ -51,7 +55,7 @@
   width: 8em;
 }
 
-.home ul.horizontal-menu li a:hover{
+ul.horizontal-menu li a:hover{
   color: #fff;
   background-color: #369;
 }
@@ -61,9 +65,9 @@
 }
 
 @media (max-width: 48em) {
-  ul.horizontal-menu li{
+  /*ul.horizontal-menu li{
     display: block;
-  }
+  }*/
   ul.horizontal-menu li a{
     display: inline-block;
     margin: 2px 0;
@@ -94,6 +98,58 @@
   margin: 2px 0;
 }
 
+.default-body .sidebar {
+  position: initial;
+  top: initial;
+  left: initial;
+  bottom: initial;
+  width: initial;
+  text-align: center;
+  padding: 1rem 0.50rem;
+}
+
+.default-body .sidebar .sidebar-sticky{
+  position: initial;
+  right: initial;
+  bottom: initial;
+  left: initial;
+}
+
+.default-body .sidebar h1{
+  margin: 0.3rem 0;
+  font-size: 2.2rem;
+}
+.default-body .sidebar .lead{
+  font-size: 0.90rem;
+  margin-bottom: 0.6rem;
+}
+.default-body .sidebar ul.horizontal-menu.social-medias li a{
+  font-size: 17px;
+}
+.default-body .sidebar a.link{
+  font-size: 17px;
+}
+
+@media (min-width: 30em) {
+  .default-body .content {
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 48em) {
+  .default-body .content {
+    max-width: 45rem;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 64em) {
+  .default-body .content {
+    max-width: 55rem;
+    margin: 0 auto;
+  }
+}
 
 .default-body .sidebar ul.horizontal-menu li {
   display: inline;
@@ -101,4 +157,19 @@
 
 .default-body .sidebar ul.horizontal-menu li a{
   font-size: 19px;
+}
+
+
+ul.horizontal-menu li a{
+  font-size: 19px;
+  text-align: left;
+  position: relative;
+  padding-left: 40px;
+  width: 7.40em;
+}
+
+ul.horizontal-menu li a i.fa{
+  top: 9px;
+  left: 12px;
+  position: absolute;
 }

@@ -6,6 +6,7 @@ tags: [sublime, sublime text, ubuntu, install sublime text, terminal]
 categories: ubuntu
 share: true
 comments: true
+redirect_from: /install-sublime-text-2-on-ubuntu-via-terminal/
 ---
 
 

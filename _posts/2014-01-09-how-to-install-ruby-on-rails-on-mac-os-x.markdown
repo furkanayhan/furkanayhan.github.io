@@ -6,6 +6,7 @@ tags: [ruby, ruby on rails, macosx, install ruby on rails, install ruby, rvm]
 categories: ruby rails macosx
 share: true
 comments: true
+redirect_from: /how-to-install-ruby-on-rails-on-mac-os-x/
 ---
 
 

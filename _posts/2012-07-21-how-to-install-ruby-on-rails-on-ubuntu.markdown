@@ -6,6 +6,7 @@ tags: [ruby, ruby on rails, ubuntu, install ruby on rails, install ruby, rvm]
 categories: ruby rails ubuntu
 share: true
 comments: true
+redirect_from: /how-to-install-ruby-on-rails-on-ubuntu/
 ---
 
 #### We have to install "RVM", "Ruby", "Gem" and "Rails" one by one.

@@ -6,6 +6,7 @@ tags: [import database, heroku, postgresql, local database, restore database]
 categories: heroku postgresql database
 share: true
 comments: true
+redirect_from: /import-heroku-postgresql-database-to-local-database/
 ---
 
 
