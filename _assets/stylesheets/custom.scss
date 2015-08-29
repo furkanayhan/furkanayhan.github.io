@@ -11,7 +11,7 @@
     background-color: #202020;
     width: 100%;
     height: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
@@ -21,7 +21,7 @@
     color: #369;
     font-size: 4.25rem;
     font-family: 'Ubuntu', sans-serif;
-    margin-top: .5rem;
+    margin-top: 0;
   }
   .container{
     max-width: 40rem;
@@ -92,6 +92,41 @@ ul.horizontal-menu li a:hover{
   ul.horizontal-menu li a{
     display: inline-block;
     margin: 2px 0;
+  }
+  .home.home-body{
+    padding: 1rem 1rem;
+    .container{
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+    }
+  }
+}
+
+@media (max-height: 32em) {
+  .home.home-body{
+    padding: 1rem 0.5rem;
+    .container{
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+    }
+    .home-about{
+      h1{
+        font-size: 2.80rem;
+      }
+      p{
+        font-size: 0.90rem;
+      }
+      &.home-bottom{
+        a{
+          font-size: 0.90rem;
+        }
+      }
+      ul.horizontal-menu{
+        a{
+          font-size: 15px;
+        }
+      }
+    }
   }
 }
 
