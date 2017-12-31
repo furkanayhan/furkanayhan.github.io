@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
-gem 'github-pages'
-gem 'jekyll-redirect-from'
-gem 'jekyll-assets'
+gem 'jekyll', '~> 2.4'
+gem 'github-pages', '~> 39'
+gem 'jekyll-redirect-from', '~> 0.8'
+gem 'jekyll-assets', '~> 1.0'
 # gem 'jekyll-archives'
