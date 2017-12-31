@@ -11,7 +11,7 @@ relative_permalinks: false
 title:            Furkan Ayhan
 tagline:          'Software Developer - Computer Engineer'
 description:      'Furkan Ayhan - Software Developer - Ruby on Rails - Computer Engineer'
-url:              http://www.furkanayhan.com
+url:              https://www.furkanayhan.com
 otherbaseurl:     /
 
 
@@ -22,13 +22,13 @@ google_verify:      -yRZtByIj6h8B6bBEVBTPp_LTSXUcamiGYBX9Y_A374
 
 author:
   name:           'Furkan ayhan'
-  url:            http://www.furkanayhan.com
+  url:            https://www.furkanayhan.com
 
 paginate:         5
 paginate_path:    '/blog/page-:num/'
 
 # Custom vars
-version:          1.0.0
+version:          1.1.0
 
 twitter_username:     furkanayhn
 github_username:      furkanayhan
