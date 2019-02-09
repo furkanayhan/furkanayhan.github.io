@@ -3,8 +3,7 @@ www.furkanayhan.com
 
 Furkan Ayhan - Personal Website
 
-Web Developer
-Ruby on Rails
+Software Developer - Computer Engineer
 
 ## dev
 - `bundle exec jekyll serve`
