@@ -29,9 +29,16 @@ redirect_from: /tr/
       </a>
     </li>
     {% endif %}
+    {% if site.gitlab_username %}
+    <li>
+      <a href="https://gitlab.com/{{ site.gitlab_username }}" target="_blank">
+        <i class="fa fa-gitlab"></i> GitLab
+      </a>
+    </li>
+    {% endif %}
     {% if site.github_username %}
     <li>
-      <a href="https://www.github.com/{{ site.github_username }}" target="_blank">
+      <a href="https://github.com/{{ site.github_username }}" target="_blank">
         <i class="fa fa-github"></i> GitHub
       </a>
     </li>
