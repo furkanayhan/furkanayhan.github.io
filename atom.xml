@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Furkan Ayhan</title>
+ <link href="https://www.furkanayhan.com/atom.xml" rel="self"/>
+ <link href="https://www.furkanayhan.com/"/>
+ <updated>2019-09-15T13:58:08+03:00</updated>
+ <id>https://www.furkanayhan.com</id>
+ <author>
+   <name>Furkan ayhan</name>
+   <email></email>
+ </author>
+
+ 
+
+</feed>

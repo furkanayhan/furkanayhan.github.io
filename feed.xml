@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator>
+<link href="https://www.furkanayhan.com/feed.xml" rel="self" type="application/atom+xml" />
+<link href="https://www.furkanayhan.com/" rel="alternate" type="text/html" />
+<updated>2019-09-15T13:58:08+03:00</updated>
+<id>https://www.furkanayhan.com/</id>
+<subtitle>Furkan Ayhan - Software Developer - Ruby on Rails - Computer Engineer</subtitle>
+<author>
+<name>Furkan ayhan</name>
+</author>
+</feed>
