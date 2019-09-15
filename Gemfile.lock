@@ -126,6 +126,7 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
     rack (1.6.11)
+    rake (12.3.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -172,6 +173,7 @@ DEPENDENCIES
   jekyll (~> 2.4)
   jekyll-assets (~> 1.0)
   jekyll-redirect-from (~> 0.8)
+  rake
 
 BUNDLED WITH
-   1.16.0
+   1.16.6
