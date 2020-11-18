@@ -2,6 +2,7 @@ version: 2.1
 
 jobs:
   build:
+    steps:
       - run: echo "this is the build job"
   test:
     steps:
