@@ -3,20 +3,20 @@ version: 2.1
 # Define the jobs we want to run for this project
 jobs:
   build:
-    machine:
-      image: cimg/base:2020.01
+    docker:
+      - image: cimg/base:2020.01
     steps:
       - checkout
       - run: echo build
   test:
-    machine:
-      image: cimg/base:2020.01
+    docker:
+      - image: cimg/base:2020.01
     steps:
       - checkout
       - run: echo test
   deploy:
-    machine:
-      image: cimg/base:2020.01
+    docker:
+      - image: cimg/base:2020.01
     steps:
       - checkout
       - run: echo deploy
