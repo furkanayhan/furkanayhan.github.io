@@ -1,15 +1,39 @@
 version: 2.1
 
+# Define the jobs we want to run for this project
 jobs:
   build:
+    machine:
+      image: cimg/base:2020.01
     steps:
-      - run: echo "this is the build job"
+      - checkout
+      - run: echo build
   test:
+    machine:
+      image: cimg/base:2020.01
     steps:
-      - run: echo "this is the test job"
+      - checkout
+      - run: echo test
+  deploy:
+    machine:
+      image: cimg/base:2020.01
+    steps:
+      - checkout
+      - run: echo deploy
 
+# Orchestrate our job run sequence
 workflows:
   build_and_test:
     jobs:
       - build
-      - test
+      - test:
+          requires:
+            - build
+      - hold:
+          type: approval
+          requires:
+            - build
+            - test
+      - deploy:
+          requires:
+            - hold
